@@ -17,8 +17,8 @@ export default function Home() {
         <Navbar />
         <div className="bg=[url('/background.svg')]">
           <Hero />
-          <div className="grid grid-cols-3 gap-4 px-4 pb-20">
-            <div className="col-span-2 flex flex-col gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 px-4 pb-20">
+            <div className="lg:col-span-2 flex flex-col gap-4">
               <Education />
               <Work />
             </div>
