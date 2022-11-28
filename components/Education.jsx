@@ -5,7 +5,7 @@ const Education = () => {
     <>
       <div className="card w-full bg-base-100 shadow-xl image-full">
         <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+          <img src="./education.jpg" alt="Shoes" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">Shoes!</h2>
