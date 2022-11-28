@@ -48,8 +48,8 @@ const Skill = () => {
         <div className="card-body">
           <h2 className="card-title pb-4">My Skills!</h2>
           <div className="card-actions justify-center">
-            {skillLists.map((skill) => (
-              <div className="flex flex-row items-center gap-2">
+            {skillLists.map((skill, index) => (
+              <div key={index} className="flex flex-row items-center gap-2">
                 <div className="badge h-full">{skill.name}</div>
                 <progress
                   className="progress progress-info w-56"
