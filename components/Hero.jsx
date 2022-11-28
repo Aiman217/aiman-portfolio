@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 className="text-3xl text-center lg:text-5xl lg:text-start font-bold">
               <Typewriter
                 words={["Nice to Meet You!", "Learn More About Me!"]}
-                loop={5}
+                loop={0}
                 cursor
                 cursorStyle="_"
                 typeSpeed={70}

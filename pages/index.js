@@ -1,6 +1,9 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Education from "../components/Education";
+import Work from "../components/Work";
+import Skill from "../components/Skill";
 
 export default function Home() {
   return (
@@ -14,6 +17,13 @@ export default function Home() {
         <Navbar />
         <div className="bg=[url('/background.svg')]">
           <Hero />
+          <div className="grid grid-cols-3 gap-4 px-4 pb-20">
+            <div className="col-span-2 flex flex-col gap-4">
+              <Education />
+              <Work />
+            </div>
+            <Skill />
+          </div>
         </div>
       </div>
     </>
